@@ -137,7 +137,7 @@ Node* match(Node* node, int x) {
     return (x - p->rating <= s->rating - x)? p : s;
 }
 
-/* ---------- MAIN ---------- */
+/*  MAIN  */
 
 int main() {
     freopen("input.txt","r",stdin);   // read input from file
@@ -214,3 +214,4 @@ int main() {
     }
     return 0;
 }
+
